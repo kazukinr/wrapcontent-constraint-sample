@@ -4,6 +4,7 @@
     <string name="menu_sample_1">Sample 1</string>
     <string name="menu_sample_2">Sample 2</string>
     <string name="menu_sample_3">Sample 3</string>
+    <string name="menu_sample_4">Sample 4</string>
 
     <string name="sample_text_1_1">Single Line</string>
     <string name="sample_text_1_2">Single Line Footer</string>

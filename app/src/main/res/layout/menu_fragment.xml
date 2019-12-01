@@ -43,6 +43,14 @@
                 android:onClick="@{() -> listener.onMenuClicked(3)}"
                 android:text="@string/menu_sample_3" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:background="?attr/selectableItemBackground"
+                android:onClick="@{() -> listener.onMenuClicked(4)}"
+                android:text="@string/menu_sample_4" />
+
         </LinearLayout>
 
     </ScrollView>
