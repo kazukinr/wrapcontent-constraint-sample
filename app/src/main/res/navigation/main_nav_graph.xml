@@ -7,6 +7,24 @@
     <fragment
         android:id="@+id/menuFragment"
         android:name="com.github.kazukinr.android.constraint.menu.MenuFragment"
-        android:label="MenuFragment" />
+        android:label="MenuFragment">
+
+        <action
+            android:id="@+id/navigateToSample"
+            app:destination="@id/sampleFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/sampleFragment"
+        android:name="com.github.kazukinr.android.constraint.sample.SampleFragment"
+        android:label="SampleFragment">
+
+        <argument
+            android:name="bundle"
+            app:argType="com.github.kazukinr.android.constraint.sample.SampleFragmentBundle"
+            app:nullable="false" />
+
+    </fragment>
 
 </navigation>

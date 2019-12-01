@@ -5,10 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.github.kazukinr.android.constraint.R
 import com.github.kazukinr.android.constraint.databinding.MenuFragmentBinding
+import com.github.kazukinr.android.constraint.sample.SampleFragmentBundle
 import com.wada811.databinding.dataBinding
-import timber.log.Timber
 
 class MenuFragment : Fragment() {
 
@@ -27,7 +28,10 @@ class MenuFragment : Fragment() {
         binding.listener = object : Listener {
 
             override fun onMenuClicked(id: Int) {
-                Timber.i("onMenuClicked: $id")
+                val direction = MenuFragmentDirections.navigateToSample(
+                    SampleFragmentBundle(id = id)
+                )
+                findNavController().navigate(direction)
             }
         }
     }

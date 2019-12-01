@@ -2,4 +2,23 @@
     <string name="app_name">Constraint Sample</string>
 
     <string name="menu_sample_1">Sample 1</string>
+
+    <string name="sample_text_1_1">Single Line</string>
+    <string name="sample_text_1_2">Single Line Footer</string>
+    <string name="sample_text_2_1">@string/debug_lorem</string>
+    <string name="sample_text_2_2">Multiple Line Footer</string>
+
+
+
+    <string name="debug_lorem" translatable="false">
+        Lorem ipsum dolor sit amet, viris ancillae omittantur no duo, sea ea vivendo tacimates reprehendunt, pro no graeci detracto. In eos oratio dictas iuvaret, in viris petentium scribentur quo, iudicabit vituperata et vim. Per an denique gubergren. Qui cu aliquid deleniti. Sea habeo regione an. Et ius tractatos dissentiunt, et quo explicari scripserit.
+
+        Ex assum oratio cum, omnis dolore accommodare per an. Duo salutatus interesset an, id velit vocent eam. Noster conclusionemque an per, vel augue voluptaria in, ex sea vero audire tritani. Facete sensibus qui et. Nam ad vero reque, sed ne appetere officiis vituperata. Ei eripuit volumus instructior vim, odio zril gubergren eu eos, no eum virtute apeirian.
+
+        Ut mel phaedrum similique, at sonet consequat mea. Invidunt recusabo mei ea. An aliquam conceptam moderatius vix. Quo eu sale aeque fabulas, nec at zril commodo admodum. Ne per ceteros percipit omittantur. Eam eu putent praesent, nam id perfecto abhorreant, duis possit accommodare ex mea.
+
+        Homero primis instructior an sea, nec cu vero omnium sensibus. Ut has modo phaedrum consequat, cum exerci audiam te, harum omnesque sed id. Eros patrioque sententiae mea no. Ei sea sint explicari, in vix homero nominavi. Etiam tibique sit ut. His ad accusata ullamcorper, vidit appetere torquatos ad nec.
+
+        Vitae soleat ius ea, feugait vulputate repudiandae ex vix, eos porro recusabo an. Eu alii possim nusquam qui, nec ei modus harum lobortis, erroribus moderatius mei no. Justo dolorum disputando nec in, vis veniam primis efficiantur at. Ea cum causae ullamcorper, cetero aliquando ei cum, eos at porro iusto contentiones. Cibo sententiae mea an, est purto case ut, per dictas alterum denique ut. Ne sit decore habemus complectitur, magna dicta indoctum in vim.
+    </string>
 </resources>
