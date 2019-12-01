@@ -24,6 +24,7 @@ class SampleAdapter(private val pattern: Int) :
         when (pattern) {
             1 -> SampleItemView1(context)
             2 -> SampleItemView2(context)
+            3 -> SampleItemView3(context)
             else -> {
                 throw IllegalArgumentException()
             }
